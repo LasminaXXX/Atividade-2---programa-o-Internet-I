@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Micro+5&family=Quicksand:wght@300..700&display=swap');
+
+li {
+    list-style-type: none;
+    margin-left: -50px;
+}
+
+.lista{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    padding: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+body {
+    background-image: url(https://images.pexels.com/photos/1778412/pexels-photo-1778412.jpeg?cs=srgb&dl=pexels-borko-manigoda-1778412.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#title {
+    text-decoration: underline;
+}

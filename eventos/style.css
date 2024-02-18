@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+body {
+    background-color: rgb(103, 98, 145)    ;
+}
+
+table{
+    font-size: 35px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+th{
+    background-color:  rgb(222, 222, 222);
+    border: 1px solid black;
+}
+
+td {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px dotted black;
+    border-top: 1px dotted black;
+}
+
+.par {
+    background-color: rgb(222, 222, 222);
+}
+.impar{
+    background-color: white;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+}
